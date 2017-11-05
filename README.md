@@ -8,3 +8,6 @@ Currently hosting:
   https://github.com/romanvm/service.addic7ed
 - OpenSubtitles.org by OpenSubtitles: https://github.com/opensubtitles/service.subtitles.opensubtitles_by_opensubtitles
 - Subtitles Dialog - Contextmenu by burekas: https://github.com/burekas7/context.subtitlesdialog.contextmenu
+
+
+Apart from addic7ed by romanvm's addon id, no other code has been modified.
