@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.orphaned-add-ons" name="Orphaned add-ons repo" version="1.0" provider-name="host505">
+    <extension point="xbmc.addon.repository" name="Orphaned add-ons repo">
+    <dir>
+        <info compressed="false">https://github.com/host505/orphaned-add-ons/raw/master/addons.xml</info>
+        <checksum>https://github.com/host505/orphaned-add-ons/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/host505/orphaned-add-ons/master/</datadir>
+    </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Home for orphaned Kodi add-ons</summary>
+        <description>Home for orphaned Kodi add-ons</description>
+        <platform>all</platform>
+    </extension>
+</addon>
