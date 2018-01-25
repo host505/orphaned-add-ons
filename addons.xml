@@ -120,7 +120,7 @@
 	<description lang="ca">Subtitols de films i televisio en multiples idiomes, milers de subtitols traduits carregats diariament. Descarrega gratuita des de la font, suport de l'API, amb milions d'usuaris.</description>
 	<description lang="cs">Titulky k filmum a serialum v mnoha jazycich, denne tisice nahranych prelozenych titulku. Stazeni zadarmo primo od zdroje, podpora API, miliony uzivatelu.</description>
 	<description lang="de">Film- und TV-Untertitel in vielen Sprachen, taglicher Upload von tausenden ubersetzten Untertiteln. Freier Download von der Quelle, API-Unterstutzung, Millionen Nutzer</description>
-	<description lang="el">Ταινίες και Σειρές σε όλες τις γλώσσες, χιλιάδες μεταφρασμένοι υπότιτλοι ανεβαίνουν καθημερινά, κατεβάστε δωρεάν , υποστήριξη API από εκατομμύρια χρήστες</description>
+	<description lang="el">Γ”Γ΅Γ©Γ­ΓΓ¥Γ² ΓªΓ΅Γ© Γ“Γ¥Γ©Γ±ΓΓ² Γ³Γ¥ ΓΌΓ«Γ¥Γ² Γ΄Γ©Γ² Γ£Γ«ΓΎΓ³Γ³Γ¥Γ², Γ·Γ©Γ«Γ©ΓΓ¤Γ¥Γ² Γ¬Γ¥Γ΄Γ΅Γ¶Γ±Γ΅Γ³Γ¬ΓΓ­Γ―Γ© ΓµΓ°ΓΌΓ΄Γ©Γ΄Γ«Γ―Γ© Γ΅Γ­Γ¥ΓΆΓ΅ΓΓ­Γ―ΓµΓ­ ΓªΓ΅Γ¨Γ§Γ¬Γ¥Γ±Γ©Γ­Γ, ΓªΓ΅Γ΄Γ¥ΓΆΓΓ³Γ΄Γ¥ Γ¤ΓΉΓ±Γ¥ΓΓ­ , ΓµΓ°Γ―Γ³Γ΄ΓΓ±Γ©Γ®Γ§ API Γ΅Γ°ΓΌ Γ¥ΓªΓ΅Γ΄Γ―Γ¬Γ¬Γ½Γ±Γ©Γ΅ Γ·Γ±ΓΓ³Γ΄Γ¥Γ²</description>
 	<description lang="eo">Filmaj kaj Televidaj subtekstoj en multaj lingvoj, miloj da tradukitaj subtekstoj ciutage alsutataj. Senpaga elsuto de fonto, API-subteno, miloj da uzantoj.</description>
 	<description lang="es">Peliculas y Subtitulos en diversos idiomas, miles de subtitulos traducidos subidos diariamente. Descarge gratis, soporte API, millones de usuarios.</description>
 	<description lang="et">Sadu Filmi ja TV Serjaalide subtiitrid erinevates keeltes laetakse ules igapaev. tasuta allalaadimine ja abi, rohkem kui miljon kasutajat.</description>
@@ -175,6 +175,24 @@ v5.2.14 (2017-01-23)
 	</assets>
     <source>https://github.com/opensubtitles/service.subtitles.opensubtitles_by_opensubtitles</source>    
   </extension>
+</addon>
+
+<addon id="service.subtitles.test" name="test" version="0.0.1" provider-name="none">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="repository.superrepo.org.helix.all" version="0.5.207" />
+	</requires>
+	<extension point="xbmc.subtitle.module" library="service.py">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">test</summary>
+		<description lang="en">test</description>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<platform>all</platform>
+		<language>en</language>
+		<forum></forum>
+		<email></email>
+	</extension>
 </addon>
 
 </addons>
