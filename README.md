@@ -1,4 +1,4 @@
-# Home for orphaned Kodi add-ons
+This is a repository for some repo-less add-ons that I use. Made for my convenience.
 
 Currently hosting:
 
